@@ -35,14 +35,12 @@
     [self setupChildController];
 }
 
-
 - (void)setupChildController {
     YMHomeViewController *homeController = [[YMHomeViewController alloc] init];
     [self addChildController:homeController title:@"首页" normalImage:@"tab_home_n" selectedImage:@"tab_home_s"];
     
     YMNewsViewController *bill = [[YMNewsViewController alloc] init];
     [self addChildController:bill title:@"消息" normalImage:@"tab_account_n" selectedImage:@"tab_account_s"];
-    
     
     YMDiscoverViewController *mineController = [[YMDiscoverViewController alloc] init];
     [self addChildController:mineController title:@"发现" normalImage:@"tab_mine_n" selectedImage:@"tab_mine_s"];

@@ -1,14 +1,12 @@
 //
 //  AppDelegate.m
-//  iOS-Tabbar
+//  iOS-UITableView
 //
-//  Created by Ezreal on 2018/6/6.
+//  Created by Ezreal on 2018/6/14.
 //  Copyright © 2018年 liuyiming. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
-#import "YMTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,16 +14,12 @@
 
 @implementation AppDelegate
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
-    
-    YMTabBarController *rootController = [[YMTabBarController alloc] init];
-    self.window.rootViewController = rootController;
-    [self.window makeKeyAndVisible];
-    
+    // Override point for customization after application launch.
     return YES;
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
