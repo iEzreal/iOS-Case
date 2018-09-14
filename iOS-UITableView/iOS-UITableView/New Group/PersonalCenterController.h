@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PersonalCenterController.h
 //  iOS-UITableView
 //
 //  Created by Ezreal on 2018/6/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PersonalCenterController : UIViewController
 
 @end
-

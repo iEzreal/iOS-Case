@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		777054F420D2071F00A44211 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 777054F320D2071F00A44211 /* AppDelegate.m */; };
-		777054F720D2071F00A44211 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 777054F620D2071F00A44211 /* ViewController.m */; };
-		777054FA20D2071F00A44211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777054F820D2071F00A44211 /* Main.storyboard */; };
 		777054FC20D2072000A44211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777054FB20D2072000A44211 /* Assets.xcassets */; };
 		777054FF20D2072000A44211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777054FD20D2072000A44211 /* LaunchScreen.storyboard */; };
 		7770550220D2072000A44211 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7770550120D2072000A44211 /* main.m */; };
 		7770550C20D2072000A44211 /* iOS_UITableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7770550B20D2072000A44211 /* iOS_UITableViewTests.m */; };
 		7770551720D2072100A44211 /* iOS_UITableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7770551620D2072100A44211 /* iOS_UITableViewUITests.m */; };
+		7770552620D20A3700A44211 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7770552520D20A3700A44211 /* MainController.m */; };
+		7770552920D20C7C00A44211 /* MainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7770552820D20C7C00A44211 /* MainCell.m */; };
+		7770552D20D217B100A44211 /* PersonalCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7770552C20D217B100A44211 /* PersonalCenterController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +39,6 @@
 		777054EF20D2071F00A44211 /* iOS-UITableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-UITableView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		777054F220D2071F00A44211 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		777054F320D2071F00A44211 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		777054F520D2071F00A44211 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		777054F620D2071F00A44211 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		777054F920D2071F00A44211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		777054FB20D2072000A44211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		777054FE20D2072000A44211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7770550020D2072000A44211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +49,12 @@
 		7770551220D2072100A44211 /* iOS-UITableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-UITableViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7770551620D2072100A44211 /* iOS_UITableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_UITableViewUITests.m; sourceTree = "<group>"; };
 		7770551820D2072100A44211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7770552420D20A3700A44211 /* MainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		7770552520D20A3700A44211 /* MainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		7770552720D20C7C00A44211 /* MainCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainCell.h; sourceTree = "<group>"; };
+		7770552820D20C7C00A44211 /* MainCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainCell.m; sourceTree = "<group>"; };
+		7770552B20D217B100A44211 /* PersonalCenterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalCenterController.h; sourceTree = "<group>"; };
+		7770552C20D217B100A44211 /* PersonalCenterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +105,17 @@
 		777054F120D2071F00A44211 /* iOS-UITableView */ = {
 			isa = PBXGroup;
 			children = (
+				7770552A20D2173C00A44211 /* New Group */,
 				777054F220D2071F00A44211 /* AppDelegate.h */,
 				777054F320D2071F00A44211 /* AppDelegate.m */,
-				777054F520D2071F00A44211 /* ViewController.h */,
-				777054F620D2071F00A44211 /* ViewController.m */,
-				777054F820D2071F00A44211 /* Main.storyboard */,
 				777054FB20D2072000A44211 /* Assets.xcassets */,
-				777054FD20D2072000A44211 /* LaunchScreen.storyboard */,
 				7770550020D2072000A44211 /* Info.plist */,
+				777054FD20D2072000A44211 /* LaunchScreen.storyboard */,
 				7770550120D2072000A44211 /* main.m */,
+				7770552420D20A3700A44211 /* MainController.h */,
+				7770552520D20A3700A44211 /* MainController.m */,
+				7770552720D20C7C00A44211 /* MainCell.h */,
+				7770552820D20C7C00A44211 /* MainCell.m */,
 			);
 			path = "iOS-UITableView";
 			sourceTree = "<group>";
@@ -130,6 +136,15 @@
 				7770551820D2072100A44211 /* Info.plist */,
 			);
 			path = "iOS-UITableViewUITests";
+			sourceTree = "<group>";
+		};
+		7770552A20D2173C00A44211 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				7770552B20D217B100A44211 /* PersonalCenterController.h */,
+				7770552C20D217B100A44211 /* PersonalCenterController.m */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +252,6 @@
 			files = (
 				777054FF20D2072000A44211 /* LaunchScreen.storyboard in Resources */,
 				777054FC20D2072000A44211 /* Assets.xcassets in Resources */,
-				777054FA20D2071F00A44211 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				777054F720D2071F00A44211 /* ViewController.m in Sources */,
+				7770552620D20A3700A44211 /* MainController.m in Sources */,
 				7770550220D2072000A44211 /* main.m in Sources */,
+				7770552D20D217B100A44211 /* PersonalCenterController.m in Sources */,
+				7770552920D20C7C00A44211 /* MainCell.m in Sources */,
 				777054F420D2071F00A44211 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +316,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		777054F820D2071F00A44211 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				777054F920D2071F00A44211 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		777054FD20D2072000A44211 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

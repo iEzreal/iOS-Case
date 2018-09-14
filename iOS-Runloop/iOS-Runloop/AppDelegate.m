@@ -1,14 +1,12 @@
 //
 //  AppDelegate.m
-//  iOS-UITableView
+//  iOS-Runloop
 //
-//  Created by Ezreal on 2018/6/14.
+//  Created by Ezreal on 2018/9/11.
 //  Copyright © 2018年 liuyiming. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "MainController.h"
-
 
 @interface AppDelegate ()
 
@@ -18,15 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    MainController *controller = [[MainController alloc] init];
-    UINavigationController *navController  = [[UINavigationController alloc] initWithRootViewController:controller];
-    
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = navController;
-    [self.window makeKeyAndVisible];
-    
+    // Override point for customization after application launch.
     return YES;
 }
 
