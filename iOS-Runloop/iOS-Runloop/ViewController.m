@@ -21,6 +21,8 @@
     
     CFRunLoopGetCurrent(); // 获取当前对象的Runloop对象
     CFRunLoopGetMain(); // 获取主线程的Runloop对象
+    
+    [self performSelector:<#(nonnull SEL)#> withObject:<#(nullable id)#> afterDelay:<#(NSTimeInterval)#>]
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

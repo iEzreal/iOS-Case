@@ -17,6 +17,7 @@
 		7745DF2720D9E3A9004C92B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745DF2620D9E3A9004C92B8 /* main.m */; };
 		7745DF3120D9E3A9004C92B8 /* iOS_GCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745DF3020D9E3A9004C92B8 /* iOS_GCDTests.m */; };
 		7745DF3C20D9E3AA004C92B8 /* iOS_GCDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7745DF3B20D9E3AA004C92B8 /* iOS_GCDUITests.m */; };
+		77DC4A5D215CAA0D0076D165 /* GCD.md in Resources */ = {isa = PBXBuildFile; fileRef = 77DC4A5C215CAA0D0076D165 /* GCD.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		7745DF3B20D9E3AA004C92B8 /* iOS_GCDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_GCDUITests.m; sourceTree = "<group>"; };
 		7745DF3D20D9E3AA004C92B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7745DF4920D9EA1A004C92B8 /* 笔记.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "笔记.h"; sourceTree = "<group>"; };
+		77DC4A5C215CAA0D0076D165 /* GCD.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = GCD.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,20 +110,21 @@
 		7745DF1620D9E3A7004C92B8 /* iOS-GCD */ = {
 			isa = PBXGroup;
 			children = (
+				7745DF4920D9EA1A004C92B8 /* 笔记.h */,
 				7745DF1720D9E3A7004C92B8 /* AppDelegate.h */,
 				7745DF1820D9E3A7004C92B8 /* AppDelegate.m */,
+				7745DF2020D9E3A9004C92B8 /* Assets.xcassets */,
+				77DC4A5C215CAA0D0076D165 /* GCD.md */,
+				7745DF2520D9E3A9004C92B8 /* Info.plist */,
+				7745DF2220D9E3A9004C92B8 /* LaunchScreen.storyboard */,
+				7745DF2620D9E3A9004C92B8 /* main.m */,
+				7745DF1D20D9E3A7004C92B8 /* Main.storyboard */,
 				7745DF1A20D9E3A7004C92B8 /* ViewController.h */,
 				7745DF1B20D9E3A7004C92B8 /* ViewController.m */,
-				7745DF1D20D9E3A7004C92B8 /* Main.storyboard */,
-				7745DF2020D9E3A9004C92B8 /* Assets.xcassets */,
-				7745DF2220D9E3A9004C92B8 /* LaunchScreen.storyboard */,
-				7745DF2520D9E3A9004C92B8 /* Info.plist */,
-				7745DF2620D9E3A9004C92B8 /* main.m */,
-				7745DF4920D9EA1A004C92B8 /* 笔记.h */,
-				7703330820DB843000119277 /* YMTool.h */,
-				7703330920DB843000119277 /* YMTool.m */,
 				7703330B20DBAB3800119277 /* YMOperation.h */,
 				7703330C20DBAB3800119277 /* YMOperation.m */,
+				7703330820DB843000119277 /* YMTool.h */,
+				7703330920DB843000119277 /* YMTool.m */,
 			);
 			path = "iOS-GCD";
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				7745DF2420D9E3A9004C92B8 /* LaunchScreen.storyboard in Resources */,
 				7745DF2120D9E3A9004C92B8 /* Assets.xcassets in Resources */,
 				7745DF1F20D9E3A7004C92B8 /* Main.storyboard in Resources */,
+				77DC4A5D215CAA0D0076D165 /* GCD.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
